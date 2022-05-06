@@ -1,3 +1,4 @@
+import { CreateOfferComponent } from './Components/create-offer/create-offer.component';
 import { BrowserModule } from '@angular/platform-browser';
 import { InjectionToken, NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
@@ -121,6 +122,7 @@ import { SortedComponentComponent } from './Components/sorted-component/sorted-c
     ProfileClientComponent,
     BasketClientComponent,
     ClaimClientComponent,
+    CreateOfferComponent,
     CagnotteClientComponent,
     EventClientComponent,
     DeliveryDeliveryPersonComponent,

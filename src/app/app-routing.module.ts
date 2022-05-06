@@ -1,3 +1,4 @@
+import { CreateOfferComponent } from './Components/create-offer/create-offer.component';
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { AuthentificateComponent } from './Components/authentificate/authentificate.component';
@@ -126,6 +127,7 @@ const routes: Routes = [
 
   { path: 'departmentmanager/Sales', component: SalesDepartmentManagerComponent, canActivate: [AuthorizedepmantguardService]},
   { path: 'departmentmanager/comment', component: CommentStatsComponent, canActivate: [AuthorizedepmantguardService]},
+  {path: 'create-offer',component:CreateOfferComponent},
 
       { path: '**', component: HomeComponent }
 
